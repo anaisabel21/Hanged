@@ -84,7 +84,7 @@ def elegir_palabra():
     return palabra_secreta.lower()#minimizamos la letras para evitar preblemas entre minúsculas y mayúsculas
 
 lista_palabra=list(elegir_palabra())#ejecutamos la función y la guardamos en una variable para luego uslarla
-print(lista_palabra)#la transformamos en lista para recorrerla  e intercambiar las letras por rayitas
+
 
 def pedir_letra(): #definimos función pedir letra
     letra=(input("Dame una letra, por favor: ")).lower()#minimizamos la letras para evitar preblemas entre minúsculas y mayúsculas
